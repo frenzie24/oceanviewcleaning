@@ -4,12 +4,14 @@ import { Outlet } from 'react-router-dom';
 import NavBar from './components/Navbar';
 
 import './App.css'
+import Header from './components/Header';
 function App() {
 
 
   return (
-    <div>
-      <NavBar />
+    <div className='w-screen flex flex-row flex-wrap items-center'>
+      <div className='bg-image' />
+      <Header />
       <Outlet />
 
 
