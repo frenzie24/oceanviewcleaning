@@ -5,7 +5,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        interTight: ['Inter Tight, sans-serif'],
+        playWrite: ['Playwrite NO, serif'],
+      },
+    },
   },
   plugins: [],
 }
