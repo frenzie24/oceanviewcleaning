@@ -9,7 +9,7 @@ function App() {
 
 
   return (
-    <div className='w-screen flex flex-row flex-wrap items-center'>
+    <div className='w-screen flex flex-row flex-wrap items-center justify-center'>
       <div className='bg-image' />
       <Header />
       <Outlet />

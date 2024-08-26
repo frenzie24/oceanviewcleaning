@@ -5,12 +5,15 @@ import FBLink from './FBLink';
 
 function Header() {
     return (
-        <header className="w-screen flex flex-row flex-wrap items-start bg-sky-100 text-sky-500 p-2 fixed top-0 z-50">
-            <div className="container mx-auto flex justify-around items-center">
-                <h1 className="text-3xl font-bold w-max">Oceanview Cleaning Co.</h1>
-                <NavBar />
-                <FBLink />
+        <header className="w-screen flex flex-row flex-wrap bg-sky-200 text-sky-800 p-2 fixed top-0 z-50">
+            <div className="w-full flex flex-row flex-wrap justify-center items-center">
+                <h1 className="text-6xl font-extrabold px-10">Oceanview Cleaning Co.</h1>
+
+
+                <div className='px-10'><FBLink /></div>
             </div>
+            <div className=' w-screen flex flex-row flex-wrap justify-center pt-4'><NavBar /></div>
+
         </header>
     );
 }
