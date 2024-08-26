@@ -35,7 +35,8 @@ function Prices() {
           </tr>
         </tbody>
       </table>
-      <h2 className='w-full text-3xl font-semibold p-4'>Prices are subject to change depending on project needs.  Please contact us with any questions!</h2>
+      <h3 className='w-full text-3xl font-semibold p-4'>Prices are subject to change depending on project needs.</h3>
+      <h3 className='w-full text-3xl font-semibold p-4'>Please contact us with any questions!</h3>
     </div>
   );
 }

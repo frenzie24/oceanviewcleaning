@@ -2,6 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
+/* no horizontal scroll bar unless added by a class directly */
+#root {
+  overflow-x: hidden
+}
+
 .bg-image {
   background-image: url('/assets/backgrounds/beach5.jpg');
   background-size: cover;
