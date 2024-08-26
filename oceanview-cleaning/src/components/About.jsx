@@ -8,7 +8,7 @@ const About = () => {
             <div className="max-w-96">
                 <img src="./assets/owner.PNG" alt="Jenny Lindoff, Oceanview Cleaning Co. founder" />
             </div>
-            <div className="max-w-96 font-medium drop-shadow-[_1px_1px_rgba(0,0,0,1)]">
+            <div className="max-w-96 text-base font-medium drop-shadow-[_1px_1px_rgba(0,0,0,1)]">
                <Logo />
                 <p className="text-justify pt-4 mb-4">
                     With over a decade of cleaning experience, Oceanview Cleaning Co. owner Jenny strives to deliver excellence with each and every clean, ensuring that customer satisfaction is above all else.

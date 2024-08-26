@@ -45,7 +45,7 @@ function ImageCarousel({ deviceType }) {
           deviceType={deviceType}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
-          className='w-[360px] md:w-[768px] lg:w-[1440px] mx-auto'>
+          className='w-[360px] sm:w-[640px] md:w-[768px] lg:w-[1440px] mx-auto'>
           <div><img src="../assets/condo1/balcony1.jpg" atl="A view of the ocean from a balcony"></img></div>
           <div><img src="../assets/condo1/bathroom1.jpg" atl="A picture of a very clean bathroom"></img></div>
           <div><img src="../assets/condo1/bedroom1.jpg" atl="A picture of a clean bedroom"></img></div>
