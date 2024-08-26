@@ -10,7 +10,7 @@ function Header() {
                 <h1 className="text-6xl font-extrabold">Oceanview Cleaning Co.</h1>
 
 
-                <div className=''><FBLink /></div>
+
             </div>
             <div className=' w-full flex flex-row flex-wrap justify-center pt-4'><NavBar /></div>
 
