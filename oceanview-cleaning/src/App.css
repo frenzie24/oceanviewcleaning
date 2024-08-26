@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* no horizontal scroll bar unless added by a class directly */
 #root {
   overflow-x: hidden
 }
