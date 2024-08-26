@@ -6,12 +6,9 @@ function FBLink() {
   };
 
   return (
-    <button
-      onClick={handleClick}
-      className="bg-white hover:bg-blue-700"
-    >
-      <img src="../assets/Facebook_Logo_Primary.png" alt="the facebook logo" className='w-20' />
-    </button>
+
+     <a href="https://www.facebook.com/profile.php?id=61564066067641" > <img src="../assets/Facebook_Logo_Primary.png" alt="the facebook logo" className='w-16' /></a>
+
   );
 }
 

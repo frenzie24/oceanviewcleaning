@@ -23,8 +23,11 @@ function ImageCarousel({deviceType}) {
   };
 
   return (
-    <div className="flex flex-row flex-wrap jusitfy-center items-center  bg-pink-500">
 
+    <div>
+
+      <h1 className=' p-4 font-semibold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1.0)] flex flex-row flex-wrap justify-center'>Take a look at our previous work</h1>
+    <div className="flex flex-row flex-wrap jusitfy-center items-center">
       <Carousel
         swipeable={true}
         draggable={true}
@@ -51,6 +54,8 @@ function ImageCarousel({deviceType}) {
         <div><img src="../assets/condo1/bedroom2.jpg" atl="A picture of a clean bedroom"></img></div>
         <div><img src="../assets/condo1/hall1.jpg" atl="A view of clean living room"></img></div>
       </Carousel>
+
+    </div>
     </div>
   );
 }

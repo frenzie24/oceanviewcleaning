@@ -6,8 +6,8 @@
   background-image: url('/assets/backgrounds/beach5.jpg');
   background-size: cover;
   background-position: center;
-  filter: blur(8px);
-  -webkit-filter: blur(8px);
+  filter: blur(4px);
+  -webkit-filter: blur(4px);
   height: 100vh;
   width: 100%;
   position: fixed;
