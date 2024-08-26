@@ -9,8 +9,8 @@ function App() {
 
 
   return (
-    <div className='w-screen flex flex-row flex-wrap items-center justify-center'>
-      <div className='bg-image' />
+    <div className='w-screen h-screen flex flex-row flex-wrap items-start justify-center'>
+      <div className='w-screen bg-image' />
       <Header />
       <Outlet />
 
