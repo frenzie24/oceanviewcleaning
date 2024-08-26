@@ -26,7 +26,7 @@ function ImageCarousel({ deviceType }) {
 
     <div>
 
-      <h1 className='font-semibold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1.0)] text-center'>Take a look at our previous work</h1>
+      <h2 className='font-bold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1.0)] text-center pb-4'>Take a look at our previous work</h2>
       <div className="flex flex-row flex-wrap jusitfy-center items-center">
         <Carousel
           swipeable={true}

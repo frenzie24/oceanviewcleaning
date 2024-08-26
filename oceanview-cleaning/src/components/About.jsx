@@ -23,8 +23,7 @@ const About = () => {
                     Please reach out to schedule your space to be tidied up in no time!
                 </p>
                 <p className="pt-3">Sincerely,</p>
-                <p>Jenny Lindoff</p>
-                <p>& Associates</p>
+                <p>Jenny Lindoff & Associates</p>
             </div>
         </div>
     );
