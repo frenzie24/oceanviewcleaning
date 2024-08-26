@@ -4,19 +4,14 @@ import '../App.css'
 export default function NavBar() {
     const currentPage = useLocation().pathname;
 
-    const renderCursor = (path) => {
-
-        return currentPage === path && <span className="blinking-cursor"></span>;
-    };
-
 
     return (
-        <nav >
-            <ul>
-                <li><Link to="/">Home</Link></li>
-                <li><Link to="/carousel">Carousel</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
-                <li><Link to="/prices">Prices</Link></li>
+        <nav className='w-screen flex flex-row flex-wrap justify-center items-center' >
+            <ul className='w-fit flex flex-row flex-wrap justify-center items-center text-2xl text-black bg-sky-600 rounded-lg [&_li]:p-2 [&_*]:text-white [&_*]:hover:text-white '>
+                <li className='hover:bg-sky-800 hover:rounded-lg'><Link to="/">Home</Link></li>
+                <li className='hover:bg-sky-800 hover:rounded-lg'><Link to="/carousel">Carousel</Link></li>
+                <li className='hover:bg-sky-800 hover:rounded-lg'><Link to="/contact">Contact</Link></li>
+                <li className='hover:bg-sky-800 hover:rounded-lg'><Link to="/prices">Prices</Link></li>
             </ul>
         </nav>
     )

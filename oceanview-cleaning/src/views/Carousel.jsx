@@ -1,13 +1,16 @@
 import React from 'react';
 import ImageCarousel from '../components/ImageCarousel'
 
-function CarouselPage() {
+function Carousel() {
+
+
   return (
-  <>
-    <h1>IMAGE CAROUSEL PLACEHOLDER</h1>
+  <div className="w-screen flex flex-row flex-wrap justify-center items-center">
+
     <ImageCarousel />
-  </>
+  </div>
   );
 }
 
-export default CarouselPage;
+export default Carousel;
+
