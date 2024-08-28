@@ -1,0 +1,41 @@
+{
+  "name": "oceanviewcleaning",
+  "version": "1.0.0",
+  "description": "A full stack web application to demo the skills of Charles Gross for Jenny Lindoff.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frenzie24/oceanviewcleaning.git"
+  },
+  "keywords": [
+    "Cleaning",
+    "Full-Stack",
+    "Front-End",
+    "Back-End",
+    "Web",
+    "Development",
+    "PPanama",
+    "City",
+    "Locally",
+    "Owned",
+    "and",
+    "Operated",
+    "Beach",
+    "Beachside",
+    "Home",
+    "Condo",
+    "Camper"
+  ],
+  "author": "Charles Gross",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frenzie24/oceanviewcleaning/issues"
+  },
+  "homepage": "https://github.com/frenzie24/oceanviewcleaning#readme",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

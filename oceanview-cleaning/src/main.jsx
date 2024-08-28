@@ -7,7 +7,7 @@ import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Home from './views/Home';
 import Carousel from './views/Carousel';
-import PricesAndContact from './views/PricesAndContact';
+import Services from './views/Services/index.jsx';
 import About from './components/About.jsx';
 import Error from './views/Error'
 // Define the accessible routes, and which components respond to which URL
@@ -31,8 +31,8 @@ const router = createBrowserRouter([
         element: <Carousel />,
       },
       {
-        path: '/PricesAndContact',
-        element: <PricesAndContact />,
+        path: '/Services',
+        element: <Services />,
       },
 
 
