@@ -5,7 +5,7 @@ function Carousel() {
 
 
   return (
-  <div className="w-screen h-full flex flex-row flex-wrap justify-center items-start pt-2">
+  <div className="w-full h-fit flex flex-row flex-wrap justify-center items-start m-2">
 
     <ImageCarousel />
   </div>

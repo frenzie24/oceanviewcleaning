@@ -26,8 +26,8 @@ function ImageCarousel({ deviceType }) {
 
     <div>
 
-      <h2 className='font-bold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1.0)] text-center pb-4'>Take a look at our previous work</h2>
-      <div className="flex flex-row flex-wrap jusitfy-center items-center">
+      <h2 className='font-bold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1.0)] text-center mb-4'>Take a look at our previous work</h2>
+      <div className="flex flex-row flex-wrap jusitfy-center items-center border-4 border-b-2 border-sky-800 bg-sky-800 rounded-md">
         <Carousel
           swipeable={true}
           draggable={true}
@@ -46,13 +46,13 @@ function ImageCarousel({ deviceType }) {
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
           className='w-[360px] sm:w-[640px] md:w-[768px] lg:w-[1440px] mx-auto'>
-          <div><img src="../assets/condo1/balcony1.jpg" atl="A view of the ocean from a balcony"></img></div>
-          <div><img src="../assets/condo1/bathroom1.jpg" atl="A picture of a very clean bathroom"></img></div>
-          <div><img src="../assets/condo1/bedroom1.jpg" atl="A picture of a clean bedroom"></img></div>
-          <div><img src="../assets/condo1/livingroom1.jpg" atl="A view of clean living room"></img></div>
-          <div><img src="../assets/condo1/bathroom2.jpg" atl="A picture of a very clean bathroom"></img></div>
-          <div><img src="../assets/condo1/bedroom2.jpg" atl="A picture of a clean bedroom"></img></div>
-          <div><img src="../assets/condo1/hall1.jpg" atl="A view of clean living room"></img></div>
+          <img src="../assets/condo1/balcony1.jpg" atl="A view of the ocean from a balcony"></img>
+          <img src="../assets/condo1/bathroom1.jpg" atl="A picture of a very clean bathroom"></img>
+          <img src="../assets/condo1/bedroom1.jpg" atl="A picture of a clean bedroom"></img>
+          <img src="../assets/condo1/livingroom1.jpg" atl="A view of clean living room"></img>
+          <img src="../assets/condo1/bathroom2.jpg" atl="A picture of a very clean bathroom"></img>
+          <img src="../assets/condo1/bedroom2.jpg" atl="A picture of a clean bedroom"></img>
+          <img src="../assets/condo1/hall1.jpg" atl="A view of clean living room"></img>
         </Carousel>
 
       </div>

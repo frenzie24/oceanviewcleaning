@@ -6,7 +6,7 @@ const About = () => {
         <div className='w-content flex flex-row flex-wrap font-interTight text-white justify-center items-start [&_div]:px-2'>
 
 
-            <div className="max-w-96 text-base font-medium drop-shadow-[2px_2.5px_1px_rgba(0,0,0,1)]">
+            <div className="max-w-96 text-base font-medium drop-shadow-[2px_2.5px_1px_rgba(0,0,0,1)] m-4">
                <Logo />
                 <p className="text-justify pt-4 mb-4">
                     With over a decade of cleaning experience, Oceanview Cleaning Co. owner Jenny strives to deliver excellence with each and every clean, ensuring that customer satisfaction is above all else.
@@ -23,8 +23,8 @@ const About = () => {
                 <p className="pt-3">Sincerely,</p>
                 <p>Jenny Lindoff & Associates</p>
             </div>
-            <div className="max-w-96">
-                <img src="./assets/owner.PNG" alt="Jenny Lindoff, Oceanview Cleaning Co. founder" />
+            <div className="max-w-96 m-4">
+                <img src="./assets/owner.jpeg" alt="Jenny Lindoff, Oceanview Cleaning Co. founder"/>
             </div>
         </div>
     );
