@@ -4,7 +4,33 @@
 
 /* no horizontal scroll bar unless added by a class directly */
 #root {
-  overflow-x: hidden
+  overflow-x: hidden;
+  @apply text-white;
+}
+
+.about {
+  @apply max-sm:text-left text-justify mb-4
+}
+
+.about-container {
+  @apply  max-sm:w-80 w-96 flex flex-col flex-nowrap text-base font-medium drop-shadow-[1px_2.5px_1px_rgba(0,0,0,1)] m-4
+}
+
+.contact-container {
+  @apply flex flex-col flex-wrap justify-center items-center
+  font-interTight text-2xl max-sm:text-lg text-white text-center drop-shadow-[2px_1.5px_1.5px_rgba(0,0,0,1.0)]
+  pb-10;
+}
+
+
+h2 {
+  @apply font-bold text-4xl max-sm:text-xl max-md:text-2xl;
+}
+
+
+
+h3 {
+  @apply text-3xl max-sm:text-lg max-md:text-xl font-semibold
 }
 
 .bg-image {
@@ -20,6 +46,29 @@
   left: 0;
   z-index: -1;
 }
+
+.logo {
+  @apply min-w-80 relative text-center font-black
+}
+.logo h1 {
+  @apply w-full text-white font-interTight text-3xl sm:text-4xl md:text-5xl lg:text-7xl drop-shadow-[0px_3px_6px_rgba(150,150,0,1.0)];
+
+}
+
+.logo h2 {
+  @apply w-full text-yellow-300 font-playWrite text-xl md:text-2xl lg:text-4xl absolute left-1/4 transform -translate-y-1/2 drop-shadow-[0_1.0px_2px_rgba(0,0,0,1.0)];
+}
+
+.h1-logo {
+  @apply w-full text-white font-interTight text-2xl sm:text-4xl drop-shadow-[0px_3px_6px_rgba(150,150,0,1.0)];
+
+ }
+
+ .h2-logo {
+  @apply w-full text-yellow-300 font-playWrite text-base sm:text-2xl absolute left-1/4 transform -translate-y-1/2 drop-shadow-[0_1.0px_2px_rgba(0,0,0,1.0)];
+
+  }
+
 
 /*
   <uniquifier>: Use a unique and descriptive class name

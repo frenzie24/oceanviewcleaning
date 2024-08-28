@@ -1,11 +1,23 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
-const Logo = () => {
+const Logo = ( {large} ) => {
+    const [isLarge, setIsLarge] = useState(large != undefined ? true : false )
+
+
+    //"Cleaning Co" portion of the logo is always 2 font steps down
+    useEffect(()=> {console.log(isLarge)}, [isLarge]);
+
     return (
-        <div className="min-w-64 w-96 relative text-center font-black">
-            <h1 className="text-white font-interTight text-xl md:text-3xl lg:text-5xl drop-shadow-[0_4px_4px_rgba(150,150,0,1.0)] ">OCEANVIEW</h1>
-            <h2 className="text-yellow-300 font-playWrite text-sm md:text-xl lg:text-2xl absolute left-1/2 transform -translate-y-1/2 drop-shadow-[0_1.0px_1.0px_rgba(0,0,0,1.0)] ">Cleaning Co.</h2>
-        </div>
+        <>
+            {isLarge ? <div className="logo">
+                <h1 >OCEANVIEW</h1>
+                <h2 >Cleaning Co.</h2>
+            </div>: <div className="logo">
+                <div className="h1-logo">OCEANVIEW</div>
+                <div className="h2-logo">Cleaning Co.</div>
+            </div>}
+
+        </>
     );
 }
 

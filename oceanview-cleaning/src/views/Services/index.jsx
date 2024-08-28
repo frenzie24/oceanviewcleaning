@@ -5,7 +5,7 @@ import Contact from '../Contact';
 function Services() {
 
     return (
-        <div>
+        <div className=''>
             <Prices />
             <Contact />
         </div>

@@ -6,14 +6,9 @@ import Logo from './Logo';
 
 function Header() {
     return (
-        <header className="w-full flex flex-row flex-wrap bg-sky-200 pb-2 text-sky-800 ">
-            <div className="w-full flex flex-row flex-wrap justify-center items-center">
-               <Logo />
-
-
-
-            </div>
-            <div className=' w-full flex flex-row flex-wrap justify-center pt-1'><NavBar /></div>
+        <header className="w-full flex flex-col flex-wrap justify-center items-center bg-sky-200 border-b-2 border-sky-600 pb-2 text-sky-800 ">
+            <Logo large={true}/>
+            <div className='border-4 border-t-2 border-sky-800 hover:border-sky-900 rounded-xl mt-2'><NavBar /></div>
 
         </header>
     );
