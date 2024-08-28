@@ -3,8 +3,8 @@ import React from 'react';
 function Prices() {
   return (
 
-    <div className="w-fit overflow-x-auto flex flex-row flex-wrap justify-center items-center text-center text-2xl text-white font-semibold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1.0)]">
-      <h2 className='w-full font-bold p-4'>Common Cleaning Prices</h2>
+    <div className="w-fit overflow-x-auto font-interTight flex flex-row flex-wrap justify-center items-center text-center text-2xl text-white font-semibold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1.0)]">
+      <h2 className='w-full  font-extrabold p-4'>Common Cleaning Prices</h2>
       <table className="min-w-content bg-sky-100 border border-gray-200 text-sky-900">
         <thead>
           <tr>
