@@ -9,26 +9,26 @@ export default [
     }
     */
     {
-        service: "1 Bed Reatly Prep",
+        service: "1 Bed Realty Prep",
         price: "$220.00",
         isHourly: false,
-        description: "Full deep cleaning/staging for viewings"
+        description: "Full deep cleaning"
     },
     {
-        service: "2 Bed Reatly Prep",
+        service: "2 Bed Realty Prep",
         price: "$300.00",
         isHourly: false,
-        description: "Full deep cleaning/staging for viewings"
+        description: "Full deep cleaning"
     },
     {
-        service: "3 Bed Reatly Prep",
+        service: "3 Bed Realty Prep",
         price: "$380.00",
         isHourly: false,
-        description: "Full deep cleaning/staging for viewings"
+        description: "Full deep cleaning"
     },
     {
         service: "Residential Cleaning",
-        price: "$30.00",
+        price: "$60.00",
         isHourly: true,
         description: "Cleaning service by the hour.  Perfect for getting a vacation home ready for the owners!"
     },
