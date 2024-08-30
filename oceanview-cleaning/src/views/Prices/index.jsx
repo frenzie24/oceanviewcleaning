@@ -5,8 +5,10 @@ import data from "./data"
 
 const Prices = () => {
   return (
-    <div className=" w-full overflow-x-auto font-interTight flex flex-row flex-wrap justify-center items-center text-center text-xs max-sm:text-xs max-md:text-base text-white font-semibold drop-shadow-[4px_5px_1.5px_rgba(0,0,0,1.0)]">
-      <h2 className='w-full max-lg:w-[400px] font-extrabold p-4'>Common Cleaning Prices</h2>
+    <div className=" w-full overflow-x-auto font-interTight flex flex-row flex-wrap justify-center items-center text-center text-xs max-sm:text-xs max-md:text-base text-white font-semibold "> {/*drop-shadow-[4px_5px_1.5px_rgba(0,0,0,1.0)]">*/}
+      <h2 className='w-full max-lg:w-[400px] font-extrabold'>
+        <div className='w-fit bg-low-opacity  p-2 mx-auto'>Common Cleaning Prices</div>
+        </h2>
       <table className=" max-w-[600px] max-sm:text-left bg-sky-100 border-gray-200 text-sky-600 mx-10">
         <thead>
           <tr className='border-b-4 border-sky-600 text-sky-100 bg-sky-600'>

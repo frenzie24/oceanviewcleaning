@@ -13,16 +13,16 @@
 }
 
 .about-container {
-  @apply  max-sm:w-80 w-96 flex flex-col flex-nowrap text-base font-medium drop-shadow-[2px_2px_1.25px_rgba(0,0,0,1)] m-4 rounded-md
+  @apply  max-sm:w-80 w-96 flex flex-col flex-nowrap text-base font-medium /*drop-shadow-[2px_2px_.25px_rgba(0,0,0,.255)] */m-4 rounded-md
 }
 
 .contact-container {
   @apply flex flex-col flex-wrap justify-center items-center
-  font-interTight text-2xl max-sm:text-lg text-white text-center drop-shadow-[2px_1.5px_1.5px_rgba(0,0,0,1.0)];
+  font-interTight text-2xl max-sm:text-lg text-white text-center /*drop-shadow-[2px_1.5px_1.5px_rgba(0,0,0,1.0)]*/;
 }
 
 .bg-low-opacity{
-   @apply bg-sky-900/20 rounded-md;
+   @apply bg-gradient-to-b from-transparent via-sky-900/25 to-transparent rounded-lg;
 }
 
 

@@ -21,7 +21,7 @@ function App() {
   const randomImg = images[Math.floor(Math.random() * images.length)];
 
   return (
-    <div className='w-screen h-screen flex flex-row flex-wrap '>
+    <div className='w-screen h-screen flex flex-row flex-wrap items-start'>
       <div className='bg-image'><img className='bg-image ' src={`./assets/backgrounds/${randomImg}`}></img></div>
       <Header />
       <Outlet />
