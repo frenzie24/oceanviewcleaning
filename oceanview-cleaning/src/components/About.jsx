@@ -8,7 +8,7 @@ const About = () => {
         [&_div]:px-2'>
 
 
-            <div className="about-container">
+            <div className="about-container overflow-visible">
 
                 <p className="about pt-4 " >
                     With over a decade of cleaning experience, Oceanview Cleaning Co. owner Jenny strives to deliver excellence with each and every clean, ensuring that customer satisfaction is above all else.
