@@ -22,7 +22,7 @@
 }
 
 .bg-low-opacity{
-   @apply bg-gradient-to-b from-transparent via-sky-900/25 to-transparent rounded-lg;
+   @apply bg-gradient-to-b from-transparent via-sky-900/15 to-transparent rounded-lg;
 }
 
 
