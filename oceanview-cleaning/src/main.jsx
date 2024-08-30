@@ -9,6 +9,7 @@ import Carousel from './views/Carousel';
 import Services from './views/Services/index.jsx';
 import About from './components/About.jsx';
 import Error from './views/Error'
+import Contact from './views/Contact/index.jsx';
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: '/Services',
         element: <Services />,
+      },
+      {
+        path: '/Contact',
+        element: <Contact />,
       },
 
 

@@ -24,10 +24,10 @@ function ImageCarousel({ deviceType }) {
 
   return (
 
-    <div>
+    <div className=''>
 
-      <h2 className='font-bold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1.0)] text-center mb-4'>Take a look at our previous work</h2>
-      <div className="flex flex-row flex-wrap jusitfy-center items-center border-4 border-b-2 border-sky-800 bg-sky-800 rounded-md">
+      <h2 className='font-bold drop-shadow-[0_1.5px_1.5px_rgba(0,0,0,1.0)] text-center my-4'>Take a look at our previous work</h2>
+      <div className="border-4 border-b-2 border-sky-800 bg-sky-800 rounded-md">
         <Carousel
           swipeable={true}
           draggable={true}
@@ -45,7 +45,7 @@ function ImageCarousel({ deviceType }) {
           deviceType={deviceType}
           dotListClass="custom-dot-list-style"
           itemClass="carousel-item-padding-40-px"
-          className='w-[360px] sm:w-[640px] md:w-[768px] lg:w-[1440px] mx-auto'>
+          className='w-[320px] sm:w-[500px] md:w-[600px] lg:w-[800px] xl:w-[1200px]'>
           <img src="../assets/condo1/balcony1.jpg" atl="A view of the ocean from a balcony"></img>
           <img src="../assets/condo1/bathroom1.jpg" atl="A picture of a very clean bathroom"></img>
           <img src="../assets/condo1/bedroom1.jpg" atl="A picture of a clean bedroom"></img>

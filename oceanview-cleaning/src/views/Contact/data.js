@@ -8,4 +8,4 @@ export default {
     */
    phone: '(850) 814-1566',
    email: 'oceanviewcleans@gmail.com',
-}
+};

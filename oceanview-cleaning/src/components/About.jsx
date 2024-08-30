@@ -3,7 +3,7 @@ import Logo from './Logo';
 
 const About = () => {
     return (
-        <div className='w-content flex flex-row flex-wrap justify-start items-start
+        <div className='w-full flex flex-row flex-wrap justify-center items-start
         font-interTight text-white
         [&_div]:px-2'>
 
