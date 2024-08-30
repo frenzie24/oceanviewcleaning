@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className='w-screen h-screen flex flex-row flex-wrap '>
-      <div className='bg-image'><img src={`./assets/backgrounds/${randomImg}`}></img></div>
+      <div className='bg-image'><img className='bg-image ' src={`./assets/backgrounds/${randomImg}`}></img></div>
       <Header />
       <Outlet />
 
