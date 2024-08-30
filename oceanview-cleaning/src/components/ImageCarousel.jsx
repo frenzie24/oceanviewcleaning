@@ -48,11 +48,29 @@ function ImageCarousel({ deviceType }) {
           className='w-[320px] sm:w-[500px] md:w-[600px] lg:w-[800px] xl:w-[1200px]'>
           <img src="../assets/condo1/balcony1.jpg" atl="A view of the ocean from a balcony"></img>
           <img src="../assets/condo1/bathroom1.jpg" atl="A picture of a very clean bathroom"></img>
-          <img src="../assets/condo1/bedroom1.jpg" atl="A picture of a clean bedroom"></img>
-          <img src="../assets/condo1/livingroom1.jpg" atl="A view of clean living room"></img>
           <img src="../assets/condo1/bathroom2.jpg" atl="A picture of a very clean bathroom"></img>
+          <img src="../assets/condo1/bathroom3.jpg" atl="A picture of a very clean bathroom"></img>
+          <img src="../assets/condo1/bedroom1.jpg" atl="A picture of a clean bedroom"></img>
           <img src="../assets/condo1/bedroom2.jpg" atl="A picture of a clean bedroom"></img>
+          <img src="../assets/condo1/livingroom1.jpg" atl="A view of clean living room"></img>
+          <img src="../assets/condo1/condo1.jpg" atl="A view of clean kitchen"></img>
           <img src="../assets/condo1/hall1.jpg" atl="A view of clean living room"></img>
+
+          <img src="../assets/condo2/bathroom1.jpg" atl="A picture of a very clean bathroom"></img>
+          <img src="../assets/condo2/bedroom1.jpg" atl="A picture of a clean bedroom"></img>
+          <img src="../assets/condo2/bathroom2.jpg" atl="A picture of a very clean bathroom"></img>
+          <img src="../assets/condo2/bedroom2.jpg" atl="A picture of a clean bedroom"></img>
+          <img src="../assets/condo2/kitchen1.jpg" atl="A picture of a clean kitchen"></img>
+          <div className='flex h-full items-center'><img src="../assets/condo2/livingroom1.jpg" atl="A view of clean living room"></img></div>
+          <img src="../assets/condo2/livingroom2.jpg" atl="A view of clean living room"></img>
+          <img src="../assets/condo2/shower1.jpg" atl="A view of clean shower"></img>
+          <img src="../assets/camper1/bathroom1.jpg" atl="A picture of a very clean bathroom"></img>
+          <img src="../assets/camper1/bedroom1.jpg" atl="A picture of a clean bedroom"></img>
+
+          <div className='flex h-full items-center'><img src="../assets/camper1/exterior1.jpg" atl="A picture of a cleaned camper exterior"></img></div>
+          <div className='flex h-full items-center'> <img src="../assets/camper1/exterior2.jpg" atl="A picture of a cleaned camper exterior"></img></div>
+          <img src="../assets/camper1/kitchen1.jpg" atl="A picture of a clean kitchen"></img>
+          <img src="../assets/camper1/kitchen2.jpg" atl="A picture of a clean kitchen"></img>
         </Carousel>
 
       </div>
