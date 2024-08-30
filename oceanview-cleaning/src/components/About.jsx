@@ -17,10 +17,10 @@ const About = () => {
                     Summer of 2013 became the first “season” where cleaning experience began for Jenny. As years have gone by, she’s cleaned at a lot of prestigious condominiums along the panhandle. Jenny has developed a passion for cleaning, and spinning a personal touch on every spot she’s encountered.
                 </p>
                 <p className="about">
-                    We at Oceanview Cleaning Co. desire to expand our services. In addition to condo cleaning services, we also offer move-in and move-out cleans for residential, deep cleans, short term rentals (i.e., Air BNB’s), campers/trailers, and everything in-between. Every job is approached with a can-do mentality and no job is too big nor too little.
+                    We at Oceanview Cleaning Co. desire to expand our services. In addition to condo cleaning services, we also offer move-in and move-out cleans for residential, deep cleans, short term rentals (i.e., Air BNB’s), campers/trailers and everything in-between. Every job is approached with a can-do mentality and no job is too big nor too little.
                 </p>
                 <p className="about">
-                    Please reach out to schedule.  Your space to be tidied up in no time!
+                    Please reach out to schedule.  Your space will be tidied up in no time!
                 </p>
                 <div className="flex flex-row flex-wrap justify-start pt-3 text-right [&_*]:w-full">
                     <p>Sincerely,</p>
