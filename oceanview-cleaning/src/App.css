@@ -13,24 +13,27 @@
 }
 
 .about-container {
-  @apply  max-sm:w-80 w-96 flex flex-col flex-nowrap text-base font-medium drop-shadow-[1px_2.5px_1px_rgba(0,0,0,1)] m-4
+  @apply  max-sm:w-80 w-96 flex flex-col flex-nowrap text-base font-medium drop-shadow-[2px_2px_1.25px_rgba(0,0,0,1)] m-4 rounded-md
 }
 
 .contact-container {
   @apply flex flex-col flex-wrap justify-center items-center
-  font-interTight text-2xl max-sm:text-lg text-white text-center drop-shadow-[2px_1.5px_1.5px_rgba(0,0,0,1.0)]
-  pb-10;
+  font-interTight text-2xl max-sm:text-lg text-white text-center drop-shadow-[2px_1.5px_1.5px_rgba(0,0,0,1.0)];
+}
+
+.bg-low-opacity{
+   @apply bg-sky-900/20 rounded-md;
 }
 
 
 h2 {
-  @apply font-bold text-4xl max-sm:text-xl max-md:text-2xl;
+  @apply max-sm:text-3xl text-5xl font-bold;
 }
 
 
 
 h3 {
-  @apply text-3xl max-sm:text-lg max-md:text-xl font-semibold
+  @apply max-sm:text-xl text-2xl font-bold;
 }
 
 .bg-image {
@@ -51,21 +54,21 @@ h3 {
   @apply min-w-80 relative text-center font-black
 }
 .logo h1 {
-  @apply w-full text-white font-interTight text-3xl sm:text-4xl md:text-5xl lg:text-7xl drop-shadow-[0px_3px_6px_rgba(150,150,0,1.0)];
+  @apply w-full text-white font-interTight text-3xl sm:text-4xl md:text-5xl lg:text-7xl ;
 
 }
 
 .logo h2 {
-  @apply w-full text-yellow-300 font-playWrite text-xl md:text-2xl lg:text-4xl absolute left-1/4 transform -translate-y-1/2 drop-shadow-[0_1.0px_2px_rgba(0,0,0,1.0)];
+  @apply w-full text-yellow-300 font-playWrite text-xl md:text-2xl lg:text-4xl absolute left-1/4 transform -translate-y-6 drop-shadow-[0px_5px_8px_rgba(150,150,0,1.0)];
 }
 
 .h1-logo {
-  @apply w-full text-white font-interTight text-2xl sm:text-4xl drop-shadow-[0px_3px_6px_rgba(150,150,0,1.0)];
+  @apply w-full text-white font-interTight text-xl sm:text-3xl drop-shadow-[0px_3px_6px_rgba(150,150,0,1.0)];
 
  }
 
  .h2-logo {
-  @apply w-full text-yellow-300 font-playWrite text-base sm:text-2xl absolute left-1/4 transform -translate-y-1/2 drop-shadow-[0_1.0px_2px_rgba(0,0,0,1.0)];
+  @apply w-full text-yellow-300 font-playWrite text-base sm:text-base absolute left-12 transform -translate-y-4 drop-shadow-[0_1.0px_2px_rgba(0,0,0,1.0)];
 
   }
 

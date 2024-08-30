@@ -5,7 +5,7 @@ import data from "./data"
 
 const Prices = () => {
   return (
-    <div className=" w-full overflow-x-auto font-interTight flex flex-row flex-wrap justify-center items-center text-center text-sm max-sm:text-xs max-md:text-md text-white font-semibold drop-shadow-[2px_1.5px_1.5px_rgba(0,0,0,1.0)]">
+    <div className=" w-full overflow-x-auto font-interTight flex flex-row flex-wrap justify-center items-center text-center text-xs max-sm:text-xs max-md:text-base text-white font-semibold drop-shadow-[4px_5px_1.5px_rgba(0,0,0,1.0)]">
       <h2 className='w-full max-lg:w-[400px] font-extrabold p-4'>Common Cleaning Prices</h2>
       <table className=" max-w-[600px] max-sm:text-left bg-sky-100 border-gray-200 text-sky-600 mx-10">
         <thead>
@@ -26,11 +26,10 @@ const Prices = () => {
               </tr>
             )
           })}
-
         </tbody>
       </table>
-      <h5 className='w-full mt-2 mx-8'>Prices are subject to change depending on project needs.</h5>
-      <h4 className='w-full mx-8'>Please contact us with any questions!</h4>
+      <h3 className='w-full mt-2 mx-8 max-w-96 bg-low-opacity max-sm:text-small p-2'><p>Prices are subject to change depending on project needs.Special projects will require a consultation to determine budget.</p>
+      <p>Please contact us with any questions! Every job is approached with a can-do mentality and no job is too big nor too little.</p></h3>
     </div>
   );
 };

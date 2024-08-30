@@ -4,19 +4,21 @@ import About from '../components/About';
 
 function Home() {
   return (
-    <div className='w-full max-sm:h-fit h-full flex flex-row flex-wrap justify-center items-start py-8'>
-      <div className='h-[320px] flex flex-row flex-wrap justify-center max-sm:items-start items-center p-2'>
-        <div className='w-[280px] font-bold font-interTight text-4xl text-center md:text-4xl drop-shadow-[2px_2px_1.5px_rgba(0,0,0,1.0)] sm:text-right'>
-        <Link to="/contact">Schedule an appointment with Panama City's best independent small business cleaner!</Link>
+    <article className='w-full flex justify-center align-center'>
+      <div className='w-fit h-fit flex flex-row flex-wrap justify-center items-start  bg-low-opacity  rounded-md'>
+        <div className='flex flex-row flex-wrap justify-center items-center py-1'>
+          <div className='w-[320px] h-full font-bold font-interTight text-5xl text-center max-sm:text-4xldrop-shadow-[2px_2px_1.5px_rgba(0,0,0,1.0)]'>
+            <Link to="/contact">Schedule an appointment with Panama City's best independent small business cleaner!</Link>
+          </div>
         </div>
-      </div>
-      <div className='w-[320px] h-[320px] p-2'>
-        <Link to="/carousel">
-        <img src="./assets/oc-icon-full.png" alt="Oceanview Cleaning Co's logo.  Features pixel art of a cleaner standing if front of the ocean." />
-        </Link>
-      </div>
+        <div className='w-[320px] h-full max-sm:[160px] py-1'>
+          <Link to="/carousel">
+            <img src="./assets/oc-icon-full.png" alt="Oceanview Cleaning Co's logo.  Features pixel art of a cleaner standing if front of the ocean." />
+          </Link>
+        </div>
 
-    </div>
+      </div>
+    </article>
   );
 }
 
